@@ -1,3 +1,4 @@
+// Question: How can a program read numbers until a negative value and report the minimum and maximum?
 package Loop;
 //A program which reads a sequence of positive integers and stop when the user fills a negative value and show the user his max and min nuber in the sequence
 
@@ -5,7 +6,7 @@ import java.util.Scanner;
 
 public class NumberCheckWhenExceed100 {
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.println("Enter your numbers");
         int n = s.nextInt();
